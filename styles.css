@@ -1,49 +1,61 @@
 body{
-    background-color: #CBF2E9;
+  background-color: #CBF2E9;
 }
 
 h1{
-    text-align: center;
-    color: black;
-    margin-bottom: 20px;
+  text-align: center;
+  color: black;
+  margin-bottom: 20px;
+}
+
+p{
+  color: black;
 }
 
 .fa{
-    color: black;
-    font-size: 24px;
+  color: black;
+  font-size: 24px;
 }
 
 .demo-content{
-    outline: 1px solid black;
-    padding: 2px;
-    text-align: center;
-    min-height: 300px;
-    margin-bottom: 10px;
+  border: 1px solid black;
+  padding: 2px;
+  text-align: center;
+  height: 300px;
+  margin-bottom: 20px;
 }
 .demo-content h1{
-    font-size: 30px;
-    font-weight: bold;
-    text-shadow:
-    -1px -1px 0 #000,
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-    1px 1px 0 #000;
+  font-size: 30px;
+  font-weight: bold;
+  text-shadow:
+  -1px -1px 0 #000,
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+  1px 1px 0 #000;
 }
 .demo-content.bg-1{
-    background: #1EC99F;
+  background: #1EC99F;
 }
 .demo-content.bg-1 h1{
-    color: #C91E48;    
+  color: #C91E48;    
 }
 .demo-content.bg-2{
-    background: #1E9DC9;
+  background: #1E9DC9;
 }
 .demo-content.bg-2 h1{
-    color: #D95B1E;
+  color: #D95B1E;
 }
 .demo-content.bg-3{
-    background: #1E48C9;
- }
+  background: #1E48C9;
+}
 .demo-content.bg-3 h1{
-    color: #C99F1E;
+  color: #C99F1E;
+}
+
+.banner{
+  border: 1px solid black;
+  padding: 10px;
+  text-align: center;
+  height: 40px;
+  margin-bottom: 20px;
 }
