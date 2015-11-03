@@ -12,26 +12,26 @@ p{
   color: black;
 }
 
-.fa{
-  color: black;
-  font-size: 24px;
-}
-
 .demo-content{
   border: 1px solid black;
-  padding: 2px;
-  text-align: center;
+  padding: 0px;
   height: 300px;
   margin-bottom: 20px;
 }
 .demo-content h1{
   font-size: 30px;
   font-weight: bold;
+  text-align: center;
   text-shadow:
   -1px -1px 0 #000,
   1px -1px 0 #000,
   -1px 1px 0 #000,
   1px 1px 0 #000;
+  margin-bottom: 10px;
+}
+.demo-content p{
+    text-align: justify;
+    padding: 10px;
 }
 .demo-content.bg-1{
   background: #1EC99F;
