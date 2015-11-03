@@ -16,7 +16,6 @@ p{
   border: 1px solid black;
   padding: 0px;
   height: 300px;
-  max-width: 400px;
   margin: auto;
   margin-bottom: 20px;
 }
@@ -32,8 +31,8 @@ p{
   margin-bottom: 10px;
 }
 .demo-content p{
-    text-align: justify;
-    padding: 10px;
+  text-align: justify;
+  padding: 10px;
 }
 .demo-content.bg-1{
   background: #1EC99F;
@@ -60,4 +59,5 @@ p{
   text-align: center;
   height: 40px;
   margin-bottom: 20px;
+  background: #D6CBF2;
 }
