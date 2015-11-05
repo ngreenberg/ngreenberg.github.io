@@ -1,15 +1,11 @@
 body {
   background-color: #CBF2E9;
+  color: #000;
 }
 
 h1 {
   text-align: center;
-  color: black;
   margin-bottom: 20px;
-}
-
-p {
-  color: black;
 }
 
 .demo-content {
