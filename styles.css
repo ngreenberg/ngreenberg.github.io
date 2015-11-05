@@ -1,25 +1,41 @@
-body{
+body {
   background-color: #CBF2E9;
 }
 
-h1{
+h1 {
   text-align: center;
   color: black;
   margin-bottom: 20px;
 }
 
-p{
+p {
   color: black;
 }
 
-.demo-content{
+.demo-content {
   border: 1px solid black;
   padding: 0px;
-  height: 300px;
+  display: block;
+  overflow: auto;
   margin: auto;
   margin-bottom: 20px;
 }
-.demo-content h1{
+
+/* Medium and Large */
+@media (min-width: 992px) {
+  .demo-content {
+    height: 300px;
+  }
+}
+
+/* Small and Extra Small */
+@media (max-width: 991px) {
+  .demo-content {
+    max-width: 400px;
+  }
+}
+
+.demo-content h1 {
   font-size: 30px;
   font-weight: bold;
   text-align: center;
@@ -30,34 +46,42 @@ p{
   1px 1px 0 #000;
   margin-bottom: 10px;
 }
-.demo-content p{
+.demo-content p {
   text-align: justify;
   padding: 10px;
 }
-.demo-content.bg-1{
+.demo-content.bg-1 {
   background: #1EC99F;
 }
-.demo-content.bg-1 h1{
+.demo-content.bg-1 h1 {
   color: #C91E48;    
 }
-.demo-content.bg-2{
+.demo-content.bg-2 {
   background: #1E9DC9;
 }
-.demo-content.bg-2 h1{
+.demo-content.bg-2 h1 {
   color: #D95B1E;
 }
-.demo-content.bg-3{
+.demo-content.bg-3 {
   background: #1E48C9;
 }
-.demo-content.bg-3 h1{
+.demo-content.bg-3 h1 {
   color: #C99F1E;
 }
 
-.banner{
+.banner {
   border: 1px solid black;
   padding: 10px;
   text-align: center;
   height: 40px;
+  margin: auto;
   margin-bottom: 20px;
   background: #D6CBF2;
+}
+
+/* Small and Extra Small */
+@media (max-width: 991px) {
+  .banner {
+    max-width: 400px;
+  }
 }
