@@ -15,8 +15,6 @@ p {
 .demo-content {
   border: 1px solid black;
   padding: 0px;
-  display: block;
-  overflow: auto;
   margin: auto;
   margin-bottom: 20px;
 }
